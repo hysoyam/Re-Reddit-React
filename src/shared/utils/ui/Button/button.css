@@ -1,0 +1,19 @@
+.button {
+    display: flex;
+    gap: 5px;
+    color: #999999;
+}
+
+.button svg>* {
+    fill: #999999;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: #CC6633;
+    fill: #CC6633;
+}
+
+.button:hover svg>* {
+    fill: #CC6633;
+}

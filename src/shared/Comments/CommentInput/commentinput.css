@@ -1,0 +1,54 @@
+.text {
+    display: block;
+    width: 100%;
+    padding: 17px 18px;
+    min-height: 90px;
+    border: 1px solid #D9D9D9;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.text[aria-invalid] {
+    border-color: #ff3a3a;
+}
+
+.text:focus-visible {
+    outline: none;
+}
+
+.controls {
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+}
+
+.actions {
+    padding: 10px 18px;
+    display: flex;
+    gap: 25px;
+
+}
+
+.submit {
+    margin-left: auto;
+    padding: 17px 50px;
+    background-color: #CC6633;
+    font-weight: 500;
+    color: #fff;
+}
+
+.submit[disabled] {
+    background-color: #d28965;
+    cursor: initial;
+}
+
+.inputError {
+    padding: 5px 0px 15px;
+    color: #ff3a3a;
+}

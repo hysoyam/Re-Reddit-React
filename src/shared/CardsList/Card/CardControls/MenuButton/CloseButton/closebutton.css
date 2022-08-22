@@ -1,0 +1,13 @@
+.closebutton {
+    background-color: var(--greyD9);
+    padding: 12px 23px;
+    border-radius: 0 0 3px 3px;
+    width: 100%;
+    display: none;
+}
+
+@media(max-width:1024px) {
+    .closebutton {
+        display: block;
+    }
+}

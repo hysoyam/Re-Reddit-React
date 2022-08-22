@@ -1,0 +1,30 @@
+.menuItem {
+    padding: 7px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    transition: color .2s;
+    padding: 14px 20px;
+  }
+  
+  
+  .menuItem:hover {
+    cursor: pointer;
+    /* color: #CC6633; */
+    color: var(--orange);
+  }
+  .menuItem>svg>* {
+    fill:currentColor;
+  }
+  
+  .menuItem>svg+span {
+    margin-left: 7px;
+  }
+  
+  .menuItem.divider:not(:last-child) {
+    border-bottom: 1px solid var(--greyEC);
+  }
+  
+  .menuItem:hover>svg>* {
+    fill:var(--orange);
+  }

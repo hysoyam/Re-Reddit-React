@@ -1,0 +1,31 @@
+@media all and (min-width: 1024px) {
+    .cardsList {
+        position: relative;
+        padding: 40px 0 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.fixed {
+    padding: 10px;
+    background-color: #fff;
+    font-size: 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.more{    
+    position: absolute;
+    bottom: 50px;
+    padding: 17px 50px;
+    background-color: #CC6633;
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    justify-self: center;
+    align-self: center;
+}

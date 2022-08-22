@@ -1,0 +1,40 @@
+.comment {
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.side_menu {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.body {
+    margin-bottom: 10px;
+}
+
+.commentInput {
+    margin-top: 20px;
+}
+
+.content {
+    flex: 1 1 auto
+}
